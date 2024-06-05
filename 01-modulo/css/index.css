@@ -1,0 +1,10 @@
+/* regla de uso de tipografia local */
+@font-face {
+    font-family:"asquire" ;
+    src: url("../assets/font/Asquire.otf");
+}
+
+body{
+    font-family: "asquire";
+    background-color: rgba(138, 136, 136, 0.877);
+}
