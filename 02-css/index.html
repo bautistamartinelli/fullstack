@@ -2,53 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/02-css/css/css/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title> <!-- Titulo de la ventana -->
+    <title>Estilos con CSS</title>
+
+    <!-- 4. Estilos externos -->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- 3. Estilos en el head -->
+    <style>
+        body{
+            background-color: #a0a0da;
+        }
+    </style>
 </head>
 <body>
-    <h1>
-        Hola Mundo
+
+    <!-- 1. CSS en línea -->
+    <h1 style="color: red;">
+        Bienvenido a mi página de Ecommerce
     </h1>
-    <h2>
-        Soy un H2
-    </h2>
-    <h3>
-        Soy un H3
-    </h3>
-    <h4>
-        Soy un H4
-    </h4>
-    
-    <h5>
-        Soy un H5
-    </h5>
-    
-<p class="custom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos perspiciatis doloribus esse distinctio corrupti dolores aliquid inventore libero magni. Ad quis laudantium assumenda esse in enim quibusdam quia harum.</p>
+
+    <div class="colorFondo textoGrande">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex odit ea perferendis quod molestiae facilis autem facere, dolores temporibus expedita veritatis praesentium repellat adipisci cum deserunt perspiciatis, laudantium, dolorem vero? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere labore optio doloribus aliquam atque veritatis inventore non facilis ut. Libero rerum vel amet voluptate, sunt ea natus sit doloribus atque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, quam! Ex libero iusto impedit deserunt enim, deleniti modi dolorem blanditiis distinctio rem ipsa, ipsam sunt exercitationem qui sit excepturi numquam?
+    </div>
+
+    <!-- 1. Asigno al tag un id -->
+    <p id="colorMarron">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex odit ea perferendis quod molestiae facilis autem facere, dolores temporibus expedita veritatis praesentium repellat adipisci cum deserunt perspiciatis, laudantium, dolorem vero? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere labore optio doloribus aliquam atque veritatis inventore non facilis ut. Libero rerum vel amet voluptate, sunt ea natus sit doloribus atque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, quam! Ex libero iusto impedit deserunt enim, deleniti modi dolorem blanditiis distinctio rem ipsa, ipsam sunt exercitationem qui sit excepturi numquam?
+    </p>
 
 
-    <p class="bordes">hola soy un parrafo  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci dolores sit quasi quia. Repudiandae sunt aut reiciendis, temporibus recusandae libero tempore quae at officia dolorum possimus ab, aliquid cumque quam?  </p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex odit ea perferendis quod molestiae facilis autem facere, dolores temporibus expedita veritatis praesentium repellat adipisci cum deserunt perspiciatis, laudantium, dolorem vero? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere labore optio doloribus aliquam atque veritatis inventore non facilis ut. Libero rerum vel amet voluptate, sunt ea natus sit doloribus atque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, quam! Ex libero iusto impedit deserunt enim, deleniti modi dolorem blanditiis distinctio rem ipsa, ipsam sunt exercitationem qui sit excepturi numquam?
+    </p>
 
-<button>enviar</button>
+    <!-- 2. Adignamos uns clase a el html -->
+    <p class="colorFondo">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex odit ea perferendis quod molestiae facilis autem facere, dolores temporibus expedita veritatis praesentium repellat adipisci cum deserunt perspiciatis, laudantium, dolorem vero? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere labore optio doloribus aliquam atque veritatis inventore non facilis ut. Libero rerum vel amet voluptate, sunt ea natus sit doloribus atque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, quam! Ex libero iusto impedit deserunt enim, deleniti modi dolorem blanditiis distinctio rem ipsa, ipsam sunt exercitationem qui sit excepturi numquam?
+    </p>
 
-<button id="boton">
-    eliminar
-</button>
+    <!-- 2. Estilos en bloque -->
+    <style>
+        /* 1. Apuntamos a un selector */
+        p {
+            /* 2. Creamos la regla de CSS: { propiedad: valor de la propiedad } */
+            color: green;
+        }
+    </style>
 
-<button>actualizar</button>
-
-
-    <h6>probando</h6>
     <footer>
-        <a href="mailto:bauti1212.martinelli@gmail.com"> Envianos un mail </a>
-    
-    <a href="call"></a>
+        <p class="textoGrande" id="colorMarron">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad nobis doloribus harum temporibus optio perferendis, maiores odit incidunt vero autem repellendus commodi laudantium tempore, omnis, ut laborum odio minima pariatur!
+        </p>
     </footer>
     
 </body>
 </html>
-<!-- alt shift a para hacer comentarios --> 
-
-
-
