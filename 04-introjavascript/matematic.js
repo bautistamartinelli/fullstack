@@ -56,3 +56,19 @@ console.log("El resultado del módulo es: " + resultado);
 console.log('====================================');
 
 
+//ejemplo de lenguaje estatico
+//java
+
+//int edad = 20;
+
+edad = '50'
+
+//typescript
+
+edad: number = 15;
+
+edad = 50;
+
+let uno = 50;
+uno = 'pepe'
+uno = true;
