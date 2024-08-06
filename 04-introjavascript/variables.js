@@ -84,3 +84,8 @@ console.warn(nombre + apellido + provincia)
 
 //DNI = 'Pepe'; //error en tiempo de ejecución
 
+
+
+
+
+

@@ -1,28 +1,30 @@
-body{
-    background-color: rgb(0, 0, 255);
+
+/* reseteo de css => quitar los estilos por default */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
 body{
     background-color: rgb(191, 191, 218);
-}
+} 
 
 img{
     width: 450px;
     height: 300px;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-}
-
 div{
     margin: 10px
 }
-main{
+
+nav{
+    background-color: aqua;
+}
+
+.productos{
     display: flex;
     /* flex-direction: row; elementos en fila - por default*/
     /* flex-direction: column; elementos en columna ordenados */
@@ -34,3 +36,52 @@ main{
     align-content: stretch;
     justify-content: space-evenly;
 }
+
+.menu{
+    height: 100px;
+    width: 350px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    list-style-type: none;
+}
+
+ul li{
+    margin: 15px;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.tablas{
+    width: 80%;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
